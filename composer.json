@@ -1,0 +1,21 @@
+{
+    "name": "yourdyy/lenguaje-natural",
+    "description": "Reconocimiento natural",
+    "autoload": {
+        "psr-4": {
+            "Yourdyy\\LenguajeNatural\\": "src/",
+            "MyApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yourdyy Yossimar Huayhua Hillpa",
+            "email": "yhuayhuahi@unsa.edu.pe"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "flightphp/core": "^3.13",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
